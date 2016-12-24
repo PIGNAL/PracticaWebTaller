@@ -14,5 +14,6 @@ namespace PracticaTaller.Models
             taller.Persona.Add(persona);
             taller.SaveChanges();
         }
+
     }
 }

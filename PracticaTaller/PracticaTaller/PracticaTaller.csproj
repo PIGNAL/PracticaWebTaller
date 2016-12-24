@@ -177,7 +177,7 @@
     <Compile Include="Models\AccesoDatos\RepositorioPersona.cs" />
     <Compile Include="Models\LogicaNegocio\GestorPersona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModels\Persona.cs" />
+    <Compile Include="ViewModels\PersonaViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />

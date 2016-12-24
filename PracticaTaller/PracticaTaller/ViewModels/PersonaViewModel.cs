@@ -5,7 +5,7 @@ using System.Web;
 
 namespace PracticaTaller.ViewModels
 {
-    public class Persona
+    public class PersonaViewModel
     {
         public string Nombre { get; set; }
         public string Apellido { get; set; }

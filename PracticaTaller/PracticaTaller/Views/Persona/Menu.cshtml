@@ -1,7 +1,12 @@
-﻿
+﻿@model PracticaTaller.ViewModels.PersonaViewModel
 @{
     ViewBag.Title = "Menu";
 }
 
-<h2>Menu</h2>
+<h1>Menu Persona</h1>
+@using (Html.BeginForm())//me renderiza un formulario
+{
+   @Html.EditorForModel()//te renderiza todos los input segun tu formulario
+   <input type="submit" value="Guardar"/>
+}
 
